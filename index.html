@@ -3,12 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <title>Tienda de Ys</title>
+  <link href='./css/normalize.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
+<header class="header">
+  <a href="index.html">
+    <img class="header__logo" src="/css/img/logo.png" alt="Logotipo">
+  </a>
+</header>
+<nav class="navegacion">
+  <a class="navegacion__enlace navegacion__enlace--activo" href="#">Tienda</a>
+  <a class="navegacion__enlace" href="#">Nosotros</a>
+</nav>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
