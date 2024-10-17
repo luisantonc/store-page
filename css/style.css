@@ -33,7 +33,7 @@ html {
     text-decoration: none;
   }
  img {
-    max-width+: 100%;
+    max-width: 100%;
   }
 .contenedor {
     max-width: 120rem;
@@ -63,6 +63,25 @@ h1, h2, h3 {
   }
   .header__logo {
     width: 20rem;
+  }
+
+  /* contenedor */ 
+  
+
+  /* Footer */
+  .footer {
+    background-color: var(--primarioOscuro);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 10rem;
+  }
+
+  .footer__texto {
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 1rem;
   }
 
   /* Navegacion */
