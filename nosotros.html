@@ -1,25 +1,77 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tienda de Ys</title>
   <link href='./css/normalize.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-<header class="header">
-  <a href="index.html">
-    <img class="header__logo" src="/css/img/logo.png" alt="Logotipo">
-  </a>
-</header>
-<nav class="navegacion">
-  <a class="navegacion__enlace navegacion__enlace--activo" href="#">Tienda</a>
-  <a class="navegacion__enlace" href="#">Nosotros</a>
-</nav>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="/css/img/logo.png" alt="Logotipo">
+    </a>
+  </header>
+  <nav class="navegacion">
+    <a class="navegacion__enlace" href="index.html">Tienda</a>
+    <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+  </nav>
+  <main class="contenedor">
+    <h1>Sobre Nosotros</h1>
+    <div class="nosotros">
+      <div class="nosotros__contenido">
+        <p>
+          Mauris in lobortis sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+          egestas. Donec maximus nisl est, eu consectetur ipsum suscipit ut. Donec vel erat erat. Nullam malesuada purus
+          dui, in ullamcorper lorem suscipit id. Nulla facilisi.
+        </p>
+        <p>Nullam ac lacus ipsum. Vivamus eros ipsum, maximus eu fringilla sit amet, bibendum at lectus. Suspendisse a
+          enim ante. Duis pharetra venenatis enim ut gravida. 
+        </p>
+      </div>
+      <img class="nosotros__imagen" src="/css/img/nosotros.jpg" alt="imagen nosotros">
+
+    </div>
+  </main>
+  <section class="contenedor comprar">
+    <h2 class="comprar__titulo">¿Porqué Comprar con nosotros?</h2>
+    <div class="bloques">
+      <div class="bloque">
+        <img class="bloque__imagen" src="css/img/icono_1.png" alt="Porqué comprar con nosotros">
+       <h3 class="bloque__titulo">El Mejor Precio</h3>
+        <p>Vivamus eros ipsum, maximus eu fringilla sit amet, bibendum at lectus. Suspendisse a
+          enim ante. Duis pharetra venenatis enim ut gravida. </p>
+      </div> <!--bloque-->
+      <div class="bloque">
+        <img class="bloque__imagen" src="css/img/icono_2.png" alt="Porqué comprar con nosotros">
+        <h3 class="bloque__titulo">Para Devs</h3>
+        <p>Vivamus eros ipsum, maximus eu fringilla sit amet, bibendum at lectus. Suspendisse a
+          enim ante. Duis pharetra venenatis enim ut gravida. </p>
+      </div> <!--bloque-->
+      <div class="bloque">
+        <img class="bloque__imagen" src="css/img/icono_3.png" alt="Porqué comprar con nosotros">
+        <h3 class="bloque__titulo">Envio Gratis</h3>
+        <p>Vivamus eros ipsum, maximus eu fringilla sit amet, bibendum at lectus. Suspendisse a
+          enim ante. Duis pharetra venenatis enim ut gravida. </p>
+      </div> <!--bloque-->
+      <div class="bloque">
+        <img class="bloque__imagen" src="css/img/icono_4.png" alt="Porqué comprar con nosotros">
+        <h3 class="bloque__titulo">La Mejor Calidad</h3>
+        <p>Vivamus eros ipsum, maximus eu fringilla sit amet, bibendum at lectus. Suspendisse a
+          enim ante. Duis pharetra venenatis enim ut gravida. </p>
+      </div> <!--bloque-->
+    </div>   <!--bloques-->
+  </section>
+  <footer class="footer">
+    <p class="footer__texto">Front End Store - Todos los derechos Reservados</p>
+  </footer>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
+
 </html>
